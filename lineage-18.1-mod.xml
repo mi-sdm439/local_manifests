@@ -22,4 +22,7 @@
   <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
   <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
   <project path="vendor/xiaomi/pine"           name="proprietary_vendor_xiaomi_pine"           groups="device" remote="mi-sdm439"/>
+
+ <!-- MODs -->
+  <project path="vendor/miuicamera" name="vendor_MiuiCamera" remote="mi-sdm439" revision="eleven"/>
 </manifest>
