@@ -9,7 +9,7 @@
            revision="lineage-18.1" />
 
  <!-- Kernels -->
-  <!-- Just use whatever you want -->
+  <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="mi-sdm439" revision="a12/main"/>
 
  <!-- Device Trees -->
   <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
