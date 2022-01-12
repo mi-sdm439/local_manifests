@@ -8,6 +8,10 @@
            fetch="https://github.com/mi-sdm439"
            revision="lineage-18.1" />
 
+ <!-- Replacements -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
+  <!-- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/> -->
+
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="mi-sdm439" revision="a12/main"/>
 
