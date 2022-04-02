@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-msm8937"
+           fetch="https://github.com/mi-msm8937"
+           revision="lineage-18.1" />
+
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439"
+           revision="lineage-18.1" />
+
+ <!-- Extras -->
+  <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
+  <project path="vendor/miuicamera" name="vendor_MiuiCamera" remote="mi-sdm439" revision="eleven"/>
+
+ <!-- Replacements -->
+  <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="mi-sdm439" revision="lineage-18.1"/>
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
+  <!-- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi-sdm439" revision="lineage-18.1-caf-msm8996"/> -->
+
+ <!-- Kernels -->
+  <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="mi-sdm439" revision="a12/main"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439" revision="lineage-18.1-extra"/>
+  <project path="device/xiaomi/mi439"          name="android_device_xiaomi_mi439"          groups="device" remote="mi-sdm439" revision="lineage-18.1-extra"/>
+  <project path="device/xiaomi/olives"         name="android_device_xiaomi_olives"         groups="device" remote="mi-sdm439" revision="lineage-18.1-extra"/>
+  <project path="device/xiaomi/pine"           name="android_device_xiaomi_pine"           groups="device" remote="mi-sdm439" revision="lineage-18.1-extra"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
+  <project path="vendor/xiaomi/mi439"          name="proprietary_vendor_xiaomi_mi439"          groups="device" remote="mi-sdm439"/>
+  <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
+  <project path="vendor/xiaomi/pine"           name="proprietary_vendor_xiaomi_pine"           groups="device" remote="mi-sdm439"/>
+</manifest>
