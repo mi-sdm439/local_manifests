@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439"
+           revision="lineage-19.1" />
+
+ <!-- Replacements -->
+  <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
+  <!-- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi-sdm439" revision="lineage-19.1-caf-msm8996"/> -->
+
+ <!-- Kernels -->
+  <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="mi-sdm439" revision="a12/main"/>
+
+ <!-- Device Trees -->
+  <project path="device/xiaomi/sdm439-common"  name="android_device_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
+  <project path="device/xiaomi/mi439"          name="android_device_xiaomi_mi439"          groups="device" remote="mi-sdm439"/>
+  <project path="device/xiaomi/olives"         name="android_device_xiaomi_olives"         groups="device" remote="mi-sdm439"/>
+  <project path="device/xiaomi/pine"           name="android_device_xiaomi_pine"           groups="device" remote="mi-sdm439" revision="lineage-18.1"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/sdm439-common"  name="proprietary_vendor_xiaomi_sdm439-common"  groups="device" remote="mi-sdm439"/>
+  <project path="vendor/xiaomi/mi439"          name="proprietary_vendor_xiaomi_mi439"          groups="device" remote="mi-sdm439" revision="lineage-18.1"/>
+  <project path="vendor/xiaomi/olives"         name="proprietary_vendor_xiaomi_olives"         groups="device" remote="mi-sdm439" revision="lineage-18.1"/>
+  <project path="vendor/xiaomi/pine"           name="proprietary_vendor_xiaomi_pine"           groups="device" remote="mi-sdm439" revision="lineage-18.1"/>
+</manifest>
