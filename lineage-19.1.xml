@@ -7,6 +7,8 @@
  <!-- Replacements -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
   <!-- <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="mi-sdm439" revision="lineage-19.1-caf-msm8996"/> -->
+  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="mi-sdm439" revision="lineage-19.1-caf"/>
 
  <!-- Kernels -->
   <project path="kernel/xiaomi/sdm439"         name="android_kernel_xiaomi_sdm439" remote="mi-sdm439" revision="a12/main"/>
