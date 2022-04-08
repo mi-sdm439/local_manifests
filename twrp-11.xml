@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-sdm439"
+           fetch="https://github.com/mi-sdm439"
+           revision="android-11.0"/>
+
+ <!-- Device Tree -->
+  <project path="device/xiaomi/mi439"  name="twrp_device_xiaomi_mi439"  groups="device" remote="mi-sdm439"/>
+</manifest>
