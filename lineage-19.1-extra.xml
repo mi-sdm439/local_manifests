@@ -10,7 +10,6 @@
 
  <!-- Extras -->
   <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
-  <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="mi-sdm439" revision="12"/>
 
  <!-- Replacements -->
   <!-- <remove-project name="LineageOS/android_hardware_qcom_audio"/> -->
