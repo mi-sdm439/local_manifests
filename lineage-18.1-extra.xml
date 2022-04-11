@@ -10,7 +10,7 @@
 
  <!-- Extras -->
   <project path="ih8sn" name="ih8sn" remote="mi-msm8937" revision="master"/>
-  <project path="vendor/miuicamera" name="vendor_MiuiCamera" remote="mi-sdm439" revision="eleven"/>
+  <project path="vendor/miuicamera" name="ArrowOS-Devices/android_vendor_miuicamera" remote="github" revision="arrow-11.0-a3"/>
 
  <!-- Replacements -->
   <remove-project name="LineageOS/android_packages_apps_FMRadio"/>
